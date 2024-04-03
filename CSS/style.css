@@ -1,0 +1,284 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.banner {
+    background-image: url("../IMAGENS/FOTO.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; /* A imagem cobre a tela */
+    height: 600px; /* Altura da minha section */
+    display: flex; /* torna os elementos flexiveis */
+    justify-content: center; /* Alinhar os elementos horizontalmente */
+    align-items: center; /* Alinhar os elementos verticalmente */
+}
+
+.texto {
+    text-align: center; /* Alinhar texto no centro */
+    height: 395px;
+}
+
+@media (max-width: 768px) {
+    .texto {
+        height: 420px;
+    }
+}
+
+.texto h2 {
+    color:#00BFFF;
+    font-size: 0%;
+    font-family: Courier;
+}
+
+.texto h1 {
+    color:#00BFFF;
+    font-size: 75px;
+    font-family: Courier;
+}
+
+
+@media (max-width: 240px) {
+    .texto h1 {
+        font-size: 50px;
+    }
+}
+
+.texto p {
+    margin-bottom: 70px;
+    color:#00BFFF;
+    font-size: 50px;
+    font-family: Courier ;
+}
+
+#frase{
+    color:#00BFFF;
+    font-size: 20px;
+    font-family: Courier 
+}
+
+@media (max-width: 768px) {
+    .texto p {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 420px) {
+    .texto p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 240px) {
+    .texto p {
+        font-size: 12px;
+    }
+}
+
+.texto a {
+    background-color: white; /* Coloca cor no fundo */
+    color:#00BFFF; /* Coloquei cor na font */
+    text-decoration: none; /* Tirar a linha debaixo do link */
+    text-transform: uppercase; /* Letras maiusculas */
+    padding: 20px 40px; /* Espacamento, primeiro altura, segundo largura*/
+    border-radius: 30px; /* Deixar bordas arredondadas */
+    font-family: Courier ;
+}
+
+@media (max-width: 240px) {
+    .texto a {
+        font-size: 13px;
+        padding: 4px 1px; 
+    }
+}
+
+.texto a:hover {
+    background-color: #826994; 
+    color: white; 
+}
+
+.sobre-mim {
+    display: flex; 
+    justify-content: center;
+    height: 380px; /* Altura da section */
+    font-family:Courier;
+}
+
+@media (max-width: 768px) {
+    .sobre-mim {
+        display: block;
+        margin-left: 50px;
+    }
+}
+
+@media (max-width: 420px) {
+    .sobre-mim {
+        display: block;
+        margin-left: 0px;
+    }
+}
+
+.sobre-mim-descricao {
+    margin: 0 50px; 
+}
+
+@media (max-width: 240px) {
+    .sobre-mim-descricao {
+        margin: 0 10px; 
+    }
+}
+
+@media (min-width: 769px) {
+    .sobre-mim-descricao {
+        width: 60%;
+    }
+}
+
+.sobre-mim a:hover {
+    background-color: #00BFFF; 
+    color: white; 
+}
+
+.sobre-mim-descricao h2 {
+    font-size: 30px; /* Tamanho da fonte(letra)*/
+    color: grey; /* Cor da fonte (letra) */
+}
+
+@media (max-width: 240px) {
+    .sobre-mim-descricao h2 {
+        font-size: 1.3em; 
+        text-align: center; 
+    }
+}
+
+@media (max-width: 768px) {
+    .sobre-mim-descricao h2 {
+        font-size: 1.5em; 
+        text-align: center; 
+    }
+}
+
+.sobre-mim-descricao p {
+     line-height: 2.0; /*Altura entrelinhas*/ 
+     text-align: justify; 
+}
+
+.sobre-mim-descricao a {
+    background-color: white;
+    color:#00BFFF(1, 71, 1); 
+    border: 1px solid #00BFFF(1, 71, 1); /* Borda do botao */
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 30px;
+}
+
+.botao {
+    margin-top: 30px; 
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.sobre-mim-lista {
+    margin-top: 70px;
+    margin-left: 50px;
+}
+
+@media (max-width: 240px) {
+    .sobre-mim-lista {
+        margin-top: 50px;
+        margin-left: 16px; 
+    }
+}
+
+.sobre-mim-lista li {
+    line-height: 2.0; /*Altura da linha da lista*/
+}
+
+.redes-sociais {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+
+}
+
+@media (max-width: 768px) {
+    .redes-sociais {
+        margin-top: 210px; 
+    }
+}
+
+@media (max-width: 420px) {
+    .redes-sociais {
+        margin-top: 430px; 
+    }
+}
+
+@media (max-width: 375px) {
+    .redes-sociais {
+        margin-top: 500px; 
+    }
+}
+
+@media (max-width: 240px) {
+    .redes-sociais {
+        margin-top: 585px; 
+        display: block;
+        padding: 0px 66px; 
+    }
+}
+
+.rede-social-especifica {
+    background-color: #00BFFF;
+    color:#00BFFF;
+    padding: 50px 40px; /* Padding espacamento interno, altura e largura */
+    margin: 20px; 
+    border-radius: 20px; 
+    
+}
+
+@media (max-width: 768px) {
+    .rede-social-especifica {
+        margin: 10px; 
+    }
+}
+
+@media (max-width: 420px) {
+    .rede-social-especifica {
+        margin: 4px;
+        padding: 4px 5px;  
+    }
+}
+
+@media (max-width: 375px) {
+    .rede-social-especifica {
+        margin: 2px;
+        padding: 6px 2px;  
+    }
+}
+
+.rede-social-especifica a {
+    color: black;
+    font-family:Nunito Sans;
+    text-decoration: none;
+}
+
+footer {
+    background-color:#F0FFFF (105, 172, 105, .5); 
+    text-align: center; /* Alinhar texto ao centro */ 
+    padding: 20px; /*Espaçamento interno */
+    margin-top: 35px; /*Espaçamento acima do rodapé */ 
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+@media (max-width: 240px) {
+    footer {
+        font-size: .8em;  
+    }
+}
+
+
+
+
+
+
+ 
